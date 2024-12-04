@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event-Based 3D Hand Gesture Recognition</title>
+    <title>Robotics Final Project</title>
     <style>
         /* General Styling */
         body {
@@ -13,18 +13,17 @@
             background-color: #f5f5f5;
             color: #333;
         }
-        h1, h2 {
-            color: #4CAF50;
-        }
         h1 {
             text-align: center;
             margin: 20px 0;
             font-size: 2.5rem;
+            color: #4CAF50;
         }
         h2 {
             text-align: left;
             margin: 20px 0 10px;
             padding-left: 20px;
+            color: #4CAF50;
         }
         .content-section {
             margin: 20px auto;
@@ -139,18 +138,102 @@
     </script>
 </head>
 <body>
-    <h1>Event-Based 3D Hand Gesture Recognition</h1>
+    <h1>Robotics Final Project</h1>
 
     <!-- Tabs -->
     <div class="tabs">
-        <div class="tab" onclick="showTab(0)">Part A</div>
-        <div class="tab" onclick="showTab(1)">Part B</div>
+        <div class="tab" onclick="showTab(0)">Part B: Event-Based 3D Hand Gesture Recognition</div>
+        <div class="tab" onclick="showTab(1)">Part A: Visual Tracking Using MATLAB Toolbox</div>
     </div>
 
     <!-- Tab Content -->
     <div class="tab-content">
-        <!-- Part A Content -->
+        <!-- Part B Content -->
         <div class="content-section">
+            <h2>Presentation Slides</h2>
+            <iframe src="final presentation2.pdf"></iframe>
+        </div>
+
+        <div class="content-section">
+            <h2>Report</h2>
+            <iframe src="report part B.pdf"></iframe>
+        </div>
+
+        <div class="content-section">
+            <h2>Project Files</h2>
+            <p><a href="https://drive.google.com/drive/folders/1U3jF0-8IrMDKF2MZpJTQRx-wVwJgDAIr?usp=sharing" target="_blank">View the Project on Google Drive</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>Event Images</h2>
+            <div class="image-grid">
+                <div class="image-container">
+                    <img src="event1.png" alt="Event 1">
+                    <div class="caption">Event 1</div>
+                </div>
+                <div class="image-container">
+                    <img src="event2.png" alt="Event 2">
+                    <div class="caption">Event 2</div>
+                </div>
+                <div class="image-container">
+                    <img src="event3.png" alt="Event 3">
+                    <div class="caption">Event 3</div>
+                </div>
+                <div class="image-container">
+                    <img src="event4.png" alt="Event 4">
+                    <div class="caption">Event 4</div>
+                </div>
+                <div class="image-container">
+                    <img src="event5.png" alt="Event 5">
+                    <div class="caption">Event 5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Video Demonstrations</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="Event (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">Video 1: Normal Conditions</div>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="RGB stream.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">Video 2: Low Light Conditions</div>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">Video 3: Testing Video 1</div>
+            </div>
+
+            <div class="video-container">
+                <video controls>
+                    <source src="final2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">Video 4: Testing Video 2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <!-- Part A Content -->
+
+        <div class="content-section">
+            <div class="content-section">
+                <h2>Report</h2>
+                <iframe src="reporta.pdf"></iframe>
+            </div>
             <h2>Video Demonstrations</h2>
             <div class="video-container">
                 <video controls>
@@ -208,50 +291,8 @@
                 <div class="description">Kalman Filter on Night Video</div>
             </div>
         </div>
-    </div>
 
-    <div class="tab-content">
-        <!-- Part B Content -->
-        <div class="content-section">
-            <h2>Presentation Slides</h2>
-            <iframe src="final presentation2.pdf"></iframe>
-        </div>
-
-        <div class="content-section">
-            <h2>Report</h2>
-            <iframe src="report part B.pdf"></iframe>
-        </div>
-
-        <div class="content-section">
-            <h2>Project Files</h2>
-            <p><a href="https://drive.google.com/drive/folders/1U3jF0-8IrMDKF2MZpJTQRx-wVwJgDAIr?usp=sharing" target="_blank">View the Project on Google Drive</a></p>
-        </div>
-
-        <div class="content-section">
-            <h2>Event Images</h2>
-            <div class="image-grid">
-                <div class="image-container">
-                    <img src="event1.png" alt="Event 1">
-                    <div class="caption">Event 1</div>
-                </div>
-                <div class="image-container">
-                    <img src="event2.png" alt="Event 2">
-                    <div class="caption">Event 2</div>
-                </div>
-                <div class="image-container">
-                    <img src="event3.png" alt="Event 3">
-                    <div class="caption">Event 3</div>
-                </div>
-                <div class="image-container">
-                    <img src="event4.png" alt="Event 4">
-                    <div class="caption">Event 4</div>
-                </div>
-                <div class="image-container">
-                    <img src="event5.png" alt="Event 5">
-                    <div class="caption">Event 5</div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </body>
 </html>
